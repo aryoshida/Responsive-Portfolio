@@ -1,0 +1,180 @@
+/* This is my basic display pages settings */
+body {
+    margin: 0;
+    background-image: url("../images/background_pavement.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.wrapper {
+    margin: auto;
+    width: 960px;
+}
+
+.header_wrapper {
+    height: 30px;
+    margin: auto;
+    width: 960px;
+}
+
+.header {
+    background-color: lightgrey;
+    height: 60px;
+}
+
+.nav_items {
+    position: relative;
+    float: right;
+}
+
+.nav_items li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+#name {
+    float: left;
+    position: absolute;
+    background-color: rgb(18, 114, 117);
+    color: white;
+    height: 30px;
+    font-weight: bold;
+    font-size: 24px;
+    width: 200px;
+    text-align: center;
+    padding: 15px 10px;
+}
+
+h1 {
+    color: rgb(18, 114, 117);
+}
+
+footer {
+    background-color: rgb(80, 76, 76);
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 10px solid rgb(18, 114, 117);
+    bottom: 0;
+    position: absolute;
+    color: white;
+}
+
+/* This is my index settings */
+
+.about_me {
+    background-color: lightgrey;
+    /* width: 960px; */
+    padding: 0px 30px;
+    margin: 30px 0px;
+    border: 1px solid grey;
+}
+
+.profile_pic {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin: 20px;
+}
+
+/* This is my Portfolio settings */
+
+
+.portfolio {
+    background-color: lightgrey;
+    width: 960px;
+    padding: 0px 30px;
+    margin: 30px 0px;
+    border: 1px solid grey;
+}
+
+.portfolio_items {
+    position: relative;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+h2 {
+    position: absolute;
+    background-color: rgb(18, 114, 117);
+    display: block;
+    width: 200px;
+    height: 30px;
+    bottom: 0;
+    text-align: center;
+
+}
+/* This is my Contact settings */
+
+form {
+    margin: 30px 0px;
+}
+
+textarea {
+    width: 400px;
+    height: 150px;
+}
+
+button {
+    background-color: rgb(18, 114, 117);
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
+@media screen and (max-width: 980px) {
+    .wrapper {
+        margin: auto;
+        width: 700px;
+    }
+
+    .header_wrapper {
+        height: 30px;
+        margin: auto;
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wrapper {
+        margin: auto;
+        width: 500px;
+    }
+
+    .header_wrapper {
+        height: 30px;
+        margin: auto;
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .wrapper {
+        margin: auto;
+        width: 400px;
+    }
+
+    .header_wrapper {
+        height: 30px;
+        margin: auto;
+        width: 400px;
+    }
+}
